@@ -17,6 +17,12 @@ public class GuardManager {
         return guards.contains(uuid);
     }
 
+    public void removeIfPresent(UUID uuid) {
+        if(isGuard(uuid)) {
+            guards.remove(uuid);
+        }
+    }
+
     public Zombie guardFactory(Location location) {
         Entity entity = location.getWorld().spawnEntity(location, EntityType.ZOMBIE);
         Zombie zombie = (Zombie) entity;
