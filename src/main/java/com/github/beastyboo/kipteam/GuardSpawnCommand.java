@@ -10,7 +10,7 @@ public class GuardSpawnCommand implements CommandExecutor {
 
     private final Kipteam kipteam;
 
-    public GuardSpawnCommand(Kipteam kipteam) {
+    GuardSpawnCommand(Kipteam kipteam) {
         this.kipteam = kipteam;
     }
 

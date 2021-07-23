@@ -8,7 +8,7 @@ public class DeathDetectionListener implements Listener {
 
     private final Kipteam kipteam;
 
-    public DeathDetectionListener(Kipteam kipteam) {
+    DeathDetectionListener(Kipteam kipteam) {
         this.kipteam = kipteam;
     }
 

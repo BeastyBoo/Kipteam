@@ -11,6 +11,10 @@ import java.util.UUID;
 
 public class GuardManager {
 
+    //In order to keep it protected
+    GuardManager() {
+    }
+
     private final Set<UUID> guards = new HashSet<>();
 
     public boolean isGuard(UUID uuid) {

@@ -10,7 +10,7 @@ public class HitDetectionListener implements Listener {
 
     private final Kipteam kipteam;
 
-    public HitDetectionListener(Kipteam kipteam) {
+    HitDetectionListener(Kipteam kipteam) {
         this.kipteam = kipteam;
     }
 
