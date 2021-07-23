@@ -1,0 +1,7 @@
+name: Kipteam
+version: ${project.version}
+main: com.github.beastyboo.kipteam.Kipteam
+api-version: 1.17
+commands:
+  guard:
+    description: Spawns a guard!
